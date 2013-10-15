@@ -3,7 +3,8 @@
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \def\labelitemi{--}
-
+\usepackage[inline]{enumitem}
+%\setlist[enumerate]{leftmargin=5mm} - no idea how to make this setting global
 
 \begin{document}
 
@@ -34,7 +35,7 @@
 \section {RESEARCH \\ EXPERIENCE}
 		{\sl University of Missouri - Kansas City} \hfill Fall 2013 - Current \\
 		School of Computing and Engineering, Dr. Praveen Rao
-		 \begin{itemize}  \itemsep -2pt % reduce space between items
+		 \begin{itemize} [leftmargin=5mm]  \itemsep -2pt % reduce space between items
 		 \item  Optimizing federated SPARQL queries for RDF data
 		\item   Researched and identified essential methodologies of exisiting SPARQL ////// 
 		\end{itemize}
@@ -43,30 +44,29 @@
 		{\sl Auburn University}  \hfill  Summer 2013\\
 		Department of Computer Science and Software Engineering  \\
 		NSF REU on Smart UAVs Research Fellow
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \begin{itemize}[leftmargin=5mm]  \itemsep -2pt %reduce space between items
                  \item Collaborated with teammate in modifying an exisiting collision avoidance algorithm 
-		 \item Designed, developed, and implemented distributed collision avoidance framework in ROS 
+		 \item Designed and implemented distributed collision avoidance framework in ROS 
 		 \item Experiementally verified algorithm and architecture with flight tests 
-		 \item Completed research paper and poster to communicate work
-		 \item Presented literature review and final ?????  to REU group 
+		 \item Presented literature review and final overview to REU group 
                  \end{itemize} 
   
 \section{EXPERIENCE} 
 		
 		{\it Maritz Research } \hfill            Jan - July 2012\\
 		Editor 		\hfill Overland Park, KS
-                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \begin{itemize} [leftmargin=5mm]  \itemsep -2pt %reduce space between items
                  \item[--]  Analyzed, identified, and improved  key issues with customer reports.
                  \end{itemize} 
                 {\it Plano Day School} \hfill        Sept - Dec  2009\\
         	Teacher's Assistant \hfill Plano, TX 
-		\begin{itemize}
+		\begin{itemize} [leftmargin=5mm] 
                    \item [--] Tutored elementary students with school homework. Graded daily class assignments. 
                    \end{itemize} 
 
               {\it Howard Lee Harkness, Violin Teacher} \hfill        Dec 2008 - Feb 2009\\
         	Piano Accompanist \hfill Plano, TX 
-		\begin{itemize}
+		\begin{itemize} [leftmargin=5mm] 
                    \item [--] Rehearsed with and accompanied violin students in a culminating recital. 
                    \end{itemize} 
 
