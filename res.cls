@@ -194,8 +194,8 @@
 \DeclareOption{line}{\@linetrue}
 \DeclareOption{centered}{\@linefalse}
 
-\DeclareOption{margin}{\@margintrue}
-\DeclareOption{overlapped}{\@marginfalse}
+\DeclareOption{margin}{\@marginfalse}
+\DeclareOption{overlapped}{\@margintrue}
 
 \ExecuteOptions{overlapped,centered}
 \ProcessOptions\relax
